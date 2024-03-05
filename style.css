@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:1170px;
+    margin:0 auto;
+    font-family: "Lato", sans-serif;
+}
+
+
+/* logo and menu part */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.logo-title{
+    font-weight: 800;
+    font-size: 36px;
+}
+.logo-part{
+    color: #FF5400;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    column-gap: 44px;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #424247;
+}
+
+/* banner section included */
+.banner{
+    background-image: url('assests/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+/* .banner-texts{
+
+} */
+.banner-heading{
+    font-weight: 800;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.banner-description{
+    padding-top: 24px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 676px;
+    text-align: center;
+}
+/* all inputs banner */
+.banner-inputs{ 
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banner-options{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+
+}
+.banner-selections{
+    padding-left: 16px;
+    font-weight:400;
+    color: rgba(19, 19, 24, 0.5);
+}
+.banner-options::placeholder{
+    padding-left: 16px;
+    color: rgba(19, 19, 24, 0.5);
+    font-weight: 400px;
+}
+.banner-button{
+    background-color: rgb(255, 84, 0);
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+/* Our Popular tours section */
+
+.our-popular-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.our-popular-texts{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+.our-popular-heading{
+    
+    font-size: 40px;
+    font-weight: 800;
+}
+.our-popular-description{
+    color: rgba(19, 19, 24, 0.7);
+}
+.our-popular-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* <!-- destination-section --> */
+.destination-section{
+    margin-bottom: 200px;
+}
+.destination-heading{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+.destination-description {
+    text-align: center;
+    width: 644px;
+    margin: 0 auto;
+    padding:20px 20px
+}
+.maldives-indonesia{
+    display: flex;
+    justify-content: space-between;
+}
+.destination-country{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+.sl-na-ka{
+    display: flex;
+    justify-content: space-between;
+}
+.bangladesh-bandarban{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* why-choose-us section */
+.hotel-service{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.handpicked-hotels{
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    width: 573px;
+    border:10px;
+}
+.world-class{
+    background-color: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+    width: 573px;
+    border: 10px;
+}
+.handpicked-hotels-img{
+    height: 64px;
+    width: 64px;
+}
+.best-price-container{
+    display: flex;
+    justify-content: center;
+
+}
+.best-price{
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    width: 573px;
+    border:10px;
+}
+
+
+
+/* footer-section */
+.footer-section{
+    background-color:rgba(19, 19, 24, 0.05);
+}
+.footer-icons{
+    display:flex;
+    align-items:center;
+    margin:0 auto;
+    width:175px;
+    column-gap: 20px;
+}
+.footer-logo{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 100px;
+
+}
+.footer-icon-logos{
+    height:35px;
+    width:35px;
+    margin-bottom: 50px;
+}
+
+.footer-paragraph{
+    width: 770px;
+    text-align: center;
+    margin: 0 auto;
+    padding:30px 30px;
+    color: rgb(90, 90, 93);
+    font-weight: 400;
+}
+.footer-hr{
+    width: 872px;
+    margin: 0 auto;
+}
+.all-rights-para{
+    color: rgb(90, 90, 93);
+    text-align: center;
+    padding: 50px 50px;
+}
